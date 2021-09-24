@@ -3,7 +3,7 @@
     {
       "project_name": "PIC-SURE-API Build",
       "project_job_git_key":"PSA",
-      "git_hash": "4954cff42164bd3428bddac66ee3d167b23ac96b"
+      "git_hash": "f837188b56856bf629764487eb9b37991eb39258"
     },{
       "project_name": "PIC-SURE-HPDS Build",
       "project_job_git_key":"PSH",
@@ -15,11 +15,11 @@
     },{
       "project_name": "PIC-SURE-HPDS-UI Build",
       "project_job_git_key":"PSHU",
-      "git_hash": "3910315fd5a4c07cedbe29f85f0f05c7cbf7e86f"
+      "git_hash": "eb1d011d5f53b444dde1f61627ac792a82105373"
     },{
       "project_name": "project-specific-ui",
       "project_job_git_key":"PSU",
-      "git_hash": "0f17963207263af80319908e444eb41501925931"
+      "git_hash": "433befabfee17bf077e152d2f27ed844d5f4ecab"
     }
   ]
 }
