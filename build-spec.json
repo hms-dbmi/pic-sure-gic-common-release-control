@@ -15,11 +15,11 @@
     },{
       "project_name": "PIC-SURE Core Frontend",
       "project_job_git_key":"PSHU",
-      "git_hash": "v2.5.0"
+      "git_hash": "origin/fix-some-text"
     },{
       "project_name": "project-specific-ui",
       "project_job_git_key":"PSU",
-      "git_hash": "v2.1.0"
+      "git_hash": "origin/fix-some-text"
     }
   ]
 }
