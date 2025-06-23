@@ -63,10 +63,6 @@
   "explorePage": {
     "columns": [
       {
-        "label": "Dataset",
-        "dataElement": "studyAcronym"
-      },
-      {
         "label": "Variable Name",
         "dataElement": "name"
       }
