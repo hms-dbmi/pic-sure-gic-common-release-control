@@ -1,5 +1,95 @@
 {
   "applicationName": "PIC‑SURE",
+  "statFields": {
+    "consent": [
+      {
+        "label": "Legacy GIC consent",
+        "id": "Legacy GIC consent",
+        "conceptPath": "\\Consent Type\\"
+      },
+      {
+        "label": "GIC consent",
+        "id": "GIC consent",
+        "conceptPath": "\\Consent Type\\"
+      }
+    ],
+    "genomic": [
+      {
+        "label": "WGS",
+        "id": "wgs",
+        "conceptPath": "\\Variant Data Type\\WGS\\"
+      },
+      {
+        "label": "WES",
+        "id": "wes",
+        "conceptPath": "\\Variant Data Type\\WES\\"
+      },
+      {
+        "label": "Genotype array",
+        "id": "genotypearray",
+        "conceptPath": "\\Variant Data Type\\Genotype array\\"
+      },
+      {
+        "label": "Low coverage WGS",
+        "id": "lc-wgs",
+        "conceptPath": "\\Variant Data Type\\Low coverage WGS\\"
+      },
+      {
+        "label": "Clinical-grade WGS",
+        "id": "cg-wgs",
+        "conceptPath": "\\Variant Data Type\\Clinical-grade WGS\\"
+      },
+      {
+        "label": "Clinical-grade WES",
+        "id": "cg-wes",
+        "conceptPath": "\\Variant Data Type\\Clinical-grade WES\\"
+      }
+    ],
+    "biosample": [
+      {
+        "label": "Whole blood",
+        "id": "Wholeblood",
+        "conceptPath": "\\Bio Specimens\\HumanFluid\\Blood (Whole)\\SPECIMENS:HF.BLD.000 Quantity\\"
+      },
+      {
+        "label": "Plasma",
+        "id": "Plasma",
+        "conceptPath": "\\Bio Specimens\\HumanFluid\\Plasma\\SPECIMENS:HF.PLS.000 Quantity\\"
+      },
+      {
+        "label": "Tissue",
+        "id": "Tissue",
+        "conceptPath": "\\Bio Specimens\\HumanTissue\\"
+      },
+      {
+        "label": "CSF",
+        "id": "CSF",
+        "conceptPath": "\\Bio Specimens\\HumanFluid\\Brain\\Cerebro-Spinal Fluid (CSF)\\SPECIMENS:HF.BRN.004\\"
+      },
+      {
+        "label": "Extracted DNA",
+        "id": "DNA",
+        "conceptPath": "\\Bio Specimens\\NucleicAcid\\DNA\\"
+      }
+    ]
+  },
+  "results": {
+    "participantsStatKey": "query:patientCount",
+    "stats": [
+      {
+        "key": "query:blank",
+        "label": "Patients"
+      },
+      {
+        "key": "query:genomic",
+        "label": "Patients with Genomic Data"
+      },
+      {
+        "key": "query:biosample",
+        "label": "Biosamples"
+      }
+    ]
+  },
   "sitemap": [
     {
       "category": "Administration",
@@ -12,9 +102,21 @@
     {
       "category": "About",
       "links": [
-        { "title": "PIC-SURE", "url": "https://avillach-lab.hms.harvard.edu/pic-sure/", "newTab": true },
-        { "title": "Avillach Lab", "url": "https://avillach-lab.hms.harvard.edu/", "newTab": true },
-        { "title": "Privacy Policy", "url": "https://pic-sure.gitbook.io/pic-sure/privacy-policy", "newTab": true }
+        {
+          "title": "PIC-SURE",
+          "url": "https://avillach-lab.hms.harvard.edu/pic-sure/",
+          "newTab": true
+        },
+        {
+          "title": "Avillach Lab",
+          "url": "https://avillach-lab.hms.harvard.edu/",
+          "newTab": true
+        },
+        {
+          "title": "Privacy Policy",
+          "url": "https://pic-sure.gitbook.io/pic-sure/privacy-policy",
+          "newTab": true
+        }
       ]
     },
     {
@@ -23,14 +125,22 @@
       "links": [
         { "title": "Explore", "url": "/explorer" },
         { "title": "Analyze", "url": "/analyze/api", "feature": "analyzeApi" },
-        { "title": "Analyze", "url": "/analyze/analysis", "feature": "analyzeAnalysis" },
+        {
+          "title": "Analyze",
+          "url": "/analyze/analysis",
+          "feature": "analyzeAnalysis"
+        },
         { "title": "Manage Datasets", "url": "/dataset" }
       ]
     },
     {
       "category": "Help",
       "links": [
-        { "title": "User Guide", "url": "https://pic-sure.gitbook.io/genomic-information-commons", "newTab": true },
+        {
+          "title": "User Guide",
+          "url": "https://pic-sure.gitbook.io/genomic-information-commons",
+          "newTab": true
+        },
         {
           "title": "Videos",
           "url": "https://www.youtube.com/playlist?list=PLJ6YccH8TEudynChXcDUKveAvqyK-N3SN",
@@ -145,80 +255,7 @@
         "key": "query:genomic",
         "label": "Participants with Genomic Data"
       }
-    ],
-    "statFields": {
-      "consent": [
-        {
-          "label": "Legacy GIC consent",
-          "id": "Legacy GIC consent",
-          "conceptPath": "\\Consent Type\\"
-        },
-        {
-          "label": "GIC consent",
-          "id": "GIC consent",
-          "conceptPath": "\\Consent Type\\"
-        }
-      ],
-      "genomic": [
-        {
-          "label": "WGS",
-          "id": "wgs",
-          "conceptPath": "\\Variant Data Type\\WGS\\"
-        },
-        {
-          "label": "WES",
-          "id": "wes",
-          "conceptPath": "\\Variant Data Type\\WES\\"
-        },
-        {
-          "label": "Genotype array",
-          "id": "genotypearray",
-          "conceptPath": "\\Variant Data Type\\Genotype array\\"
-        },
-        {
-          "label": "Low coverage WGS",
-          "id": "lc-wgs",
-          "conceptPath": "\\Variant Data Type\\Low coverage WGS\\"
-        },
-        {
-          "label": "Clinical-grade WGS",
-          "id": "cg-wgs",
-          "conceptPath": "\\Variant Data Type\\Clinical-grade WGS\\"
-        },
-        {
-          "label": "Clinical-grade WES",
-          "id": "cg-wes",
-          "conceptPath": "\\Variant Data Type\\Clinical-grade WES\\"
-        }
-      ],
-      "biosample": [
-        {
-          "label": "Whole blood",
-          "id": "Wholeblood",
-          "conceptPath": "\\Bio Specimens\\HumanFluid\\Blood (Whole)\\SPECIMENS:HF.BLD.000 Quantity\\"
-        },
-        {
-          "label": "Plasma",
-          "id": "Plasma",
-          "conceptPath": "\\Bio Specimens\\HumanFluid\\Plasma\\SPECIMENS:HF.PLS.000 Quantity\\"
-        },
-        {
-          "label": "Tissue",
-          "id": "Tissue",
-          "conceptPath": "\\Bio Specimens\\HumanTissue\\"
-        },
-        {
-          "label": "CSF",
-          "id": "CSF",
-          "conceptPath": "\\Bio Specimens\\HumanFluid\\Brain\\Cerebro-Spinal Fluid (CSF)\\SPECIMENS:HF.BRN.004\\"
-        },
-        {
-          "label": "Extracted DNA",
-          "id": "DNA",
-          "conceptPath": "\\Bio Specimens\\NucleicAcid\\DNA\\"
-        }
-      ]
-    }
+    ]
   },
   "analysisPage": {
     "api": {
