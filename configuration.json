@@ -373,5 +373,8 @@
     "title": "Privacy Policy",
     "content": "This is the privacy policy for the PIC-SURE application.",
     "url": "https://pic-sure.gitbook.io/pic-sure/privacy-policy"
+  },
+  "genomic": {
+    "defaultGenomeBuild": "GRCh38"
   }
 }
