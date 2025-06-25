@@ -74,7 +74,7 @@
     ]
   },
   "results": {
-    "participantsStatKey": "query:patientCount",
+    "participantsStatKey": "query:blank",
     "stats": [
       {
         "key": "query:blank",
