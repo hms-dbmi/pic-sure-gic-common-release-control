@@ -47,9 +47,29 @@
     ],
     "biosample": [
       {
+        "label": "DNA",
+        "id": "DNA",
+        "conceptPath": "\\Bio Specimens\\NucleicAcid\\DNA\\True"
+      },
+      {
+        "label": "RNA",
+        "id": "RNA",
+        "conceptPath": "\\Bio Specimens\\NucleicAcid\\RNA\\True"
+      },
+      {
         "label": "Whole blood",
         "id": "Wholeblood",
         "conceptPath": "\\Bio Specimens\\HumanFluid\\Blood (Whole)\\SPECIMENS:HF.BLD.000 Quantity\\"
+      },
+      {
+        "label": "Human Tissue",
+        "id": "Tissue",
+        "conceptPath": "\\Bio Specimens\\HumanTissue\\True"
+      },
+      {
+        "label": "Cerebro-Spinal Fluid",
+        "id": "CSF",
+        "conceptPath": "\\Bio Specimens\\HumanFluid\\Brain\\Cerebro-Spinal Fluid (CSF)\\SPECIMENS:HF.BRN.004\\True"
       },
       {
         "label": "Plasma",
@@ -57,24 +77,29 @@
         "conceptPath": "\\Bio Specimens\\HumanFluid\\Plasma\\SPECIMENS:HF.PLS.000 Quantity\\"
       },
       {
-        "label": "Tissue",
-        "id": "Tissue",
-        "conceptPath": "\\Bio Specimens\\HumanTissue\\"
+        "label": "Serum",
+        "id": "Serum",
+        "conceptPath": "\\Bio Specimens\\HumanFluid\\Serum\\Quantity\\"
       },
       {
-        "label": "CSF",
-        "id": "CSF",
-        "conceptPath": "\\Bio Specimens\\HumanFluid\\Brain\\Cerebro-Spinal Fluid (CSF)\\SPECIMENS:HF.BRN.004\\"
+        "label": "Urine",
+        "id": "Urine",
+        "conceptPath": "\\Bio Specimens\\HumanFluid\\Urine\\Quantity\\"
       },
       {
-        "label": "Extracted DNA",
-        "id": "DNA",
-        "conceptPath": "\\Bio Specimens\\NucleicAcid\\DNA\\"
+        "label": "Amniotic Fluid",
+        "id": "Amniotic Fluid",
+        "conceptPath": "\\Bio Specimens\\HumanFluid\\Amniotic fluid\\Quantity\\"
+      },
+      {
+        "label": "Peripheral blood mononuclear cells",
+        "id": "PBMC",
+        "conceptPath": "\\Bio Specimens\\HumanFluid\\Peripheral blood mononuclear cells\\Quantity\\"
       }
     ]
   },
   "results": {
-    "participantsStatKey": "query:blank",
+    "totalStatKey": "query:blank",
     "stats": [
       {
         "key": "query:blank",
