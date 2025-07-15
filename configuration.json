@@ -111,7 +111,7 @@
       },
       {
         "key": "query:biosample",
-        "label": "Biosamples"
+        "label": "Count of Biosamples"
       }
     ]
   },
@@ -266,19 +266,19 @@
     "stats": [
       {
         "key": "query:blank",
-        "label": "Participants"
+        "label": "GIC Participants"
       },
       {
         "key": "query:biosample",
-        "label": "Biosamples"
+        "label": "GIC Biosamples"
       },
       {
         "key": "query:consent",
-        "label": "Participants with GIC research consent"
+        "label": "Participants with GIC Research Consent"
       },
       {
         "key": "query:genomic",
-        "label": "Participants with Genomic Data"
+        "label": "GIC Participants with Genomic Data"
       }
     ]
   },
