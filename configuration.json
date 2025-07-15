@@ -1,7 +1,7 @@
 {
   "applicationName": "PIC‑SURE",
   "statFields": {
-    "consent": [
+    "query:consent": [
       {
         "label": "Legacy GIC consent",
         "id": "Legacy GIC consent",
@@ -13,7 +13,7 @@
         "conceptPath": "\\Consent Type\\"
       }
     ],
-    "genomic": [
+    "query:genomic": [
       {
         "label": "WGS",
         "id": "wgs",
@@ -45,7 +45,7 @@
         "conceptPath": "\\Variant Data Type\\Clinical-grade WES\\"
       }
     ],
-    "biosample": [
+    "query:biosample": [
       {
         "label": "DNA",
         "id": "DNA",
