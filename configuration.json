@@ -128,18 +128,8 @@
       "category": "About",
       "links": [
         {
-          "title": "PIC-SURE",
-          "url": "https://avillach-lab.hms.harvard.edu/pic-sure/",
-          "newTab": true
-        },
-        {
-          "title": "Avillach Lab",
-          "url": "https://avillach-lab.hms.harvard.edu/",
-          "newTab": true
-        },
-        {
-          "title": "Privacy Policy",
-          "url": "https://pic-sure.gitbook.io/pic-sure/privacy-policy",
+          "title": "GIC",
+          "url": "https://www.genomicinformationcommons.org/",
           "newTab": true
         }
       ]
@@ -180,7 +170,7 @@
     }
   ],
   "footer": {
-    "showSitemap": true,
+    "showSitemap": false,
     "excludeSitemapOn": ["/explorer", "/discover", "/data-request"],
     "links": [
       {
@@ -379,12 +369,6 @@
         "description": "Need help? Submit a service desk ticket, we are here to help!",
         "icon": "fa-solid fa-handshake fa-4x",
         "url": "https://bch-gic.atlassian.net/servicedesk/customer/portal/1/group/-1"
-      },
-      {
-        "title": "PIC-SURE",
-        "description": "Check out the PIC-SURE website for information.",
-        "icon": "fa-solid fa-circle-info fa-4x",
-        "url": "https://avillach-lab.hms.harvard.edu/pic-sure"
       }
     ],
     "popups": {
