@@ -3,7 +3,7 @@
     {
       "project_name": "PIC-SURE-API Build",
       "project_job_git_key":"PSA",
-      "git_hash": "origin/dictionary-migrator"
+      "git_hash": "v2.20.3"
     },{
       "project_name": "PIC-SURE-HPDS Build",
       "project_job_git_key":"PSH",
@@ -11,7 +11,7 @@
     },{
       "project_name": "PIC-SURE Auth Micro-App Build",
       "project_job_git_key":"PSAMA",
-      "git_hash": "origin/release"
+      "git_hash": "v3.6.5"
     },{
       "project_name": "PIC-SURE-Database-Migrations",
       "project_job_git_key":"PSM",
@@ -19,7 +19,7 @@
     },{
       "project_name": "PIC-SURE-Frontend Build",
       "project_job_git_key":"PSF",
-      "git_hash": "feature/update-gic-theme"
+      "git_hash": "origin/main"
     },{
       "project_name": "PIC-SURE Dictionary",
       "project_job_git_key":"DICTIONARY",
@@ -31,7 +31,7 @@
     },{
       "project_name": "PIC-SURE Passthru Service",
       "project_job_git_key":"PASSTHRU",
-      "git_hash": "ignore-cert"
+      "git_hash": "origin/bch-self-signed"
     }
   ]
 }
