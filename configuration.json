@@ -115,72 +115,14 @@
       }
     ]
   },
-  "sitemap": [
-    {
-      "category": "Administration",
-      "privilege": "ADMIN",
-      "links": [
-        { "title": "Manage Users", "url": "/admin/users" },
-        { "title": "Configuration", "url": "/admin/configuration" }
-      ]
-    },
-    {
-      "category": "About",
-      "links": [
-        {
-          "title": "GIC",
-          "url": "https://www.genomicinformationcommons.org/",
-          "newTab": true
-        }
-      ]
-    },
-    {
-      "category": "Use PIC-SURE",
-      "privilege": "PIC_SURE_ANY_QUERY",
-      "links": [
-        { "title": "Explore", "url": "/explorer" },
-        { "title": "Analyze", "url": "/analyze/api", "feature": "analyzeApi" },
-        {
-          "title": "Analyze",
-          "url": "/analyze/analysis",
-          "feature": "analyzeAnalysis"
-        },
-        { "title": "Manage Datasets", "url": "/dataset" }
-      ]
-    },
-    {
-      "category": "Help",
-      "links": [
-        {
-          "title": "User Guide",
-          "url": "https://pic-sure.gitbook.io/genomic-information-commons",
-          "newTab": true
-        },
-        {
-          "title": "Videos",
-          "url": "https://www.youtube.com/playlist?list=PLJ6YccH8TEudynChXcDUKveAvqyK-N3SN",
-          "newTab": true
-        },
-        {
-          "title": "Help Desk",
-          "url": "https://bch-gic.atlassian.net/servicedesk/customer/portal/1/group/-1",
-          "newTab": true
-        }
-      ]
-    }
-  ],
+  "sitemap": [],
   "footer": {
     "showSitemap": false,
     "excludeSitemapOn": ["/explorer", "/discover", "/data-request"],
     "links": [
       {
-        "title": "Privacy Policy",
-        "url": "https://pic-sure.gitbook.io/pic-sure/privacy-policy",
-        "newTab": true
-      },
-      {
-        "title": "Contact Us",
-        "url": "https://hms-dbmi.atlassian.net/servicedesk/customer/portal/5",
+        "title": "GIC",
+        "url": "https://www.genomicinformationcommons.org/",
         "newTab": true
       }
     ]
@@ -347,28 +289,10 @@
         "url": "https://www.youtube.com/playlist?list=PLJ6YccH8TEudynChXcDUKveAvqyK-N3SN"
       },
       {
-        "title": "Find Collaborators",
-        "description": "Find participating investigators by research topic or institution",
-        "icon": "fa-solid fa-handshake fa-4x",
-        "url": "https://pic-sure.gitbook.io/genomic-information-commons/user-journey/find-research-collaborators"
-      },
-      {
-        "title": "Feature or Improvement Request",
-        "description": "Have an idea for how we can improve or a new feature? Submit your idea here, we're all ears!",
-        "icon": "fa-solid fa-lightbulb fa-4x",
-        "url": "https://bch-gic.atlassian.net/servicedesk/customer/portal/1/group/1/create/1"
-      },
-      {
-        "title": "Report a Bug",
-        "description": "Notify the GIC support team of the problem you are experiencing.",
-        "icon": "fa-solid fa-bug fa-4x",
-        "url": "https://bch-gic.atlassian.net/servicedesk/customer/portal/1/group/1/create/1"
-      },
-      {
         "title": "Request Help",
-        "description": "Need help? Submit a service desk ticket, we are here to help!",
+        "description": "Need help or found a Bug? Submit a service desk ticket, we are here to help!",
         "icon": "fa-solid fa-handshake fa-4x",
-        "url": "https://bch-gic.atlassian.net/servicedesk/customer/portal/1/group/-1"
+        "url": "https://bch-gic.atlassian.net/servicedesk/customer/portals"
       }
     ],
     "popups": {
