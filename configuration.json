@@ -290,7 +290,7 @@
       },
       {
         "title": "Request Help",
-        "description": "Need help or found a Bug? Submit a service desk ticket, we are here to help!",
+        "description": "Need help or found a Bug? Submit a service desk ticket!",
         "icon": "fa-solid fa-handshake fa-4x",
         "url": "https://bch-gic.atlassian.net/servicedesk/customer/portals"
       }
