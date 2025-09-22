@@ -138,7 +138,7 @@
     "totalPatientsText": "Filtered Participants",
     "queryErrorText": "There was an error with your query. If this persists, please contact you PIC-SURE admin.",
     "filterErrorText": "There was an error when adding the filter to the query. Please remove your most recent filter and try again. If this error persists, please contact us by filling out the form at <a class=\"anchor\" href=\"https://hms-dbmi.atlassian.net/servicedesk/customer/portal/5\" target=\"_blank\" class=\"underline\">Avillach Lab Software Requests</a>. We will respond to your request as soon as we can.",
-    "analysisExportText": "To export data and start your analysis, use the following code to connect to PIC-SURE and save the dataframe or download the file. Note that you will need your personal access token to complete the connection to PIC-SURE with code.",
+    "analysisExportText": "You are ready to request access to the dataset.",
     "confirmDownloadTitle": "Are you sure you want to download data?",
     "confirmDownloadMessage": "This action will download the data to your local machine. Are you sure you want to proceed?",
     "codeBlocks": {
@@ -148,7 +148,7 @@
       "RAPI": "# Requires R 3.4 or later\n### Uncomment this code if you are not using the PIC-SURE environment in *BDC-Seven Bridges*, or if you do not have all the necessary dependencies installed.\n#install.packages(\"devtools\")\nSys.setenv(TAR = \"/bin/tar\")\noptions(unzip = \"internal\")\ndevtools::install_github(\"hms-dbmi/pic-sure-r-adapter-hpds\", ref=\"main\", force=T, quiet=FALSE)\nlibrary(dplyr)\nPICSURE_network_URL = \"https://picsure.biodatacatalyst.nhlbi.nih.gov/picsure\"\ntoken_file <- \"token.txt\"\ntoken <- scan(token_file, what = \"character\")\nsession <- picsure::bdc.initializeSession(PICSURE_network_URL, token)\nsession <- picsure::bdc.setResource(session = session,  resourceName = \"AUTH\")"
     },
     "goTo": {
-      "instructions": "Copy your personal access token and save as a text file called \"token.txt\" in the same working directory to execute the code above.",
+      "instructions": "",
       "links": []
     },
     "pfbExportUrls": []
